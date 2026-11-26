@@ -10,7 +10,7 @@ This folder contains project-level templates for [Claude Code](https://code.clau
 | [`skills/engineering-sdlc/SKILL.md`](skills/engineering-sdlc/SKILL.md) | `.claude/skills/engineering-sdlc/SKILL.md` | Reusable lifecycle workflow for planning through release |
 | [`agents/engineering-reviewer.md`](agents/engineering-reviewer.md) | `.claude/agents/engineering-reviewer.md` | Optional read-only engineering review subagent |
 
-Claude Code's root `CLAUDE.md` is intended for durable project context. Reusable, procedural workflows belong in skills; specialized delegated tasks can be defined as subagents. Keep the root file concise and avoid duplicating the full documentation library there.
+Claude Code's root `CLAUDE.md` is intended for durable project context. Reusable, procedural workflows belong in skills; specialized delegated tasks can be defined as subagents. Claude Code can also use a repository's `AGENTS.md` in place of `CLAUDE.md`. This pack provides both a shared `AGENTS.md` baseline and a Claude-specific `CLAUDE.md` template; review them together and remove duplicated instructions if you install both. Keep always-on context concise and avoid duplicating the full documentation library there.
 
 ## Install
 
