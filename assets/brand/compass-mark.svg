@@ -1,11 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
-  <title id="title">AI Engineering Compass</title>
-  <desc id="desc">A compass ring with a north-pointing needle forming an abstract letter A.</desc>
-  <rect width="256" height="256" rx="48" fill="#F3EEE5"/>
-  <circle cx="128" cy="128" r="88" fill="none" stroke="#272522" stroke-width="13" stroke-dasharray="462 92" transform="rotate(-45 128 128)" stroke-linecap="round"/>
-  <path d="M128 27 L145 81 L128 70 L111 81 Z" fill="#C56A32"/>
-  <path d="M128 81 L183 207 L128 174 L73 207 Z" fill="#272522"/>
-  <path d="M128 111 L151 178 L128 163 L105 178 Z" fill="#F3EEE5"/>
-  <circle cx="128" cy="128" r="8" fill="#C56A32"/>
-  <path d="M128 8 L128 23 M248 128 L233 128 M128 248 L128 233 M8 128 L23 128" stroke="#CBB99E" stroke-width="5" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+  <title id="title">AI Engineering Compass mark</title>
+  <desc id="desc">A stylized charcoal letter A at the centre of a compass, surrounded by a circular directional ring with amber north and south pointers and beige east and west markers.</desc>
+  <rect width="320" height="320" rx="56" fill="#F3EEE5"/>
+  <!-- Outer compass ring, deliberately open at the cardinal points -->
+  <path d="M57 112 A110 110 0 0 1 263 112" fill="none" stroke="#272522" stroke-width="14" stroke-linecap="round"/>
+  <path d="M263 208 A110 110 0 0 1 57 208" fill="none" stroke="#272522" stroke-width="14" stroke-linecap="round"/>
+  <!-- Inner guide ring -->
+  <path d="M78 119 A88 88 0 0 1 242 119" fill="none" stroke="#CBB99E" stroke-width="7" stroke-linecap="round"/>
+  <path d="M78 201 A88 88 0 0 1 242 201" fill="none" stroke="#CBB99E" stroke-width="7" stroke-linecap="round"/>
+  <!-- Cardinal markers -->
+  <path d="M160 15 L184 77 L160 61 L136 77 Z" fill="#C56A32"/>
+  <path d="M160 305 L136 243 L160 259 L184 243 Z" fill="#C56A32"/>
+  <path d="M15 160 L78 136 L62 160 L78 184 Z" fill="#D9C5A5"/>
+  <path d="M305 160 L242 184 L258 160 L242 136 Z" fill="#D9C5A5"/>
+  <!-- Central A -->
+  <path d="M160 70 L244 249 L160 194 L76 249 Z" fill="#272522"/>
+  <!-- Inner negative-space counter of the A -->
+  <path d="M160 133 L190 201 L160 181 L130 201 Z" fill="#F3EEE5"/>
+  <!-- Directional needle / apex -->
+  <path d="M160 83 L179 137 L160 125 L141 137 Z" fill="#C56A32"/>
+  <circle cx="160" cy="151" r="7" fill="#F3EEE5"/>
 </svg>
