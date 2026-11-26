@@ -1,14 +1,12 @@
 <div align="center">
 
-<img src="assets/brand/compass-mark.svg" alt="AI Engineering Compass mark" width="112" />
-
-# AI Engineering Compass
+<img src="assets/brand/ai-engineering-compass.svg" alt="AI Engineering Compass logo" width="760" />
 
 ### Your practical guide to building great software in the AI era.
 
 Real code, proven patterns, and shared engineering wisdom for the AI era.
 
-[Explore the guides](docs/README.md) · [Contribute](CONTRIBUTING.md) · [Suggest a topic](https://github.com/austinnoronha/ai-engineering-compass/issues/new/choose)
+[Explore the guides](docs/README.md) · [Contribute](CONTRIBUTING.md) · [Brand and logo](docs/brand-guidelines.md) · [Suggest a topic](https://github.com/austinnoronha/ai-engineering-compass/issues/new/choose)
 
 </div>
 
@@ -88,22 +86,30 @@ This repository is a shared learning resource, not a universal rulebook.
 
 Read the [content standards](CONTRIBUTING.md) before contributing.
 
+## Brand and logo
+
+The AI Engineering Compass logo is part of the project's shared identity. **You are welcome to use it when referencing the project or contributing to it.** For example, you can include it in a contribution, tutorial, presentation, article, or community post that points people to this repository.
+
+- [Primary horizontal logo (SVG)](assets/brand/ai-engineering-compass.svg)
+- [Standalone compass-A mark (SVG)](assets/brand/compass-mark.svg)
+- [Logo usage and visual guidelines](docs/brand-guidelines.md)
+- [Brand asset license](LICENSE-BRAND)
+
+The logo artwork is available under **CC BY 4.0**. Please credit **AI Engineering Compass** and link to this repository or the license. You may adapt the artwork under the license terms, but make it clear when a version has been modified. Do not use the logo in a way that suggests project endorsement, official maintainer status, or affiliation that does not exist.
+
 ## Licensing
 
 - Documentation and written guidance: [Creative Commons Attribution 4.0 International](LICENSE-DOCS).
 - Original code examples and code artifacts: [MIT License](LICENSE-CODE).
+- Logo and brand artwork: [Creative Commons Attribution 4.0 International](LICENSE-BRAND).
 
 Third-party materials retain their original licenses. Contributions must be yours to share under the applicable license. See [LICENSE](LICENSE) for the repository-level notice.
 
 ## Contributing
 
-You do not need to be an expert or write a long article to contribute. Fix a confusing explanation, add a tested example, share a useful reference, or propose a topic.
+You do not need to be an expert or write a long article to contribute. Fix a confusing explanation, add a tested example, share a useful reference, or propose a topic. You can also use the project logo in your contribution by following the [brand guidelines](docs/brand-guidelines.md).
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md), follow the [article template](templates/article-template.md), and open an issue or pull request.
-
-## Brand
-
-The visual identity uses warm ivory, beige, charcoal, and a restrained burnt-amber accent. See [brand guidelines](docs/brand-guidelines.md) and the editable SVG assets in [assets/brand](assets/brand/).
 
 ---
 
