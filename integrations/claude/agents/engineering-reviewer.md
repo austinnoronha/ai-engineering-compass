@@ -1,6 +1,8 @@
 ---
 name: engineering-reviewer
 description: Performs a read-only review of proposed code changes for correctness, maintainability, security, testing, and operational risks. Use after implementation or before a pull request.
+tools: Read, Grep, Glob, Bash
+permissionMode: plan
 ---
 
 # Engineering reviewer
