@@ -10,7 +10,7 @@ This folder contains project-level templates for [Cursor](https://cursor.com/doc
 | [`rules/engineering-sdlc.mdc`](rules/engineering-sdlc.mdc) | `.cursor/rules/engineering-sdlc.mdc` | Task-oriented lifecycle guidance |
 | [`skills/engineering-sdlc/SKILL.md`](skills/engineering-sdlc/SKILL.md) | `.cursor/skills/engineering-sdlc/SKILL.md` | Reusable SDLC procedure |
 
-Cursor also supports a root `AGENTS.md` for straightforward project instructions. The [shared integration template](../shared/AGENTS.md) can be copied to that location. Choose either a minimal AGENTS.md setup or the more structured project rules and skills; avoid duplicating large instructions across all locations.
+Cursor also supports a root `AGENTS.md` for straightforward project instructions. The [shared integration template](../shared/AGENTS.md) can be copied to that location. Choose either a minimal AGENTS.md setup or the more structured project rules and skills; avoid duplicating large instructions across all locations. Current Cursor versions also discover skills in `.claude/skills/`, so a team using both Claude Code and Cursor can share the Claude skill directory instead of maintaining two copies. Keep the Cursor-native `.cursor/skills/` copy only when you want a separate Cursor-specific version.
 
 ## Install
 
