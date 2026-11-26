@@ -42,6 +42,18 @@ Prefer official documentation, standards, source code, and primary research. Che
 
 Keep examples focused and self-contained. Include prerequisites and run/test instructions. Use safe sample data and fake credentials. Original code samples are licensed under MIT; documentation is licensed under CC BY 4.0. Third-party content keeps its original license and must be compatible with the contribution.
 
+## Using the project logo
+
+Contributors are welcome to use the AI Engineering Compass logo in their pull requests, articles, tutorials, slides, and other material that references or contributes to this project.
+
+- Use the original SVG assets from [assets/brand](assets/brand/).
+- Follow the [brand guidelines](docs/brand-guidelines.md) for sizing, colour, backgrounds, and clear space.
+- Credit **AI Engineering Compass** and link to this repository or [LICENSE-BRAND](LICENSE-BRAND).
+- If you modify the logo, indicate that it has been modified and retain the required attribution.
+- Do not use the logo to imply endorsement, official maintainer status, or an affiliation that does not exist.
+
+The logo artwork is shared under CC BY 4.0. This permission is separate from the MIT license for code and CC BY 4.0 license for written documentation.
+
 ## Pull requests
 
 - Keep one coherent purpose per pull request.
