@@ -1,0 +1,21 @@
+---
+description: Core engineering expectations and project-specific context for AI Engineering Compass adopters.
+alwaysApply: true
+---
+
+# Engineering baseline
+
+- Treat the current application repository as the source of truth for its requirements, architecture, conventions, versions, and operational commands.
+- Inspect the relevant code, tests, documentation, and configuration before changing behaviour.
+- Do not invent paths, APIs, commands, dependencies, or test outcomes.
+- Prefer clear, proportionate changes that follow established project patterns.
+- Protect secrets, private data, authorization, and tenant boundaries.
+- Never perform destructive or production-impacting actions without explicit authorization.
+- Report what changed and which checks were actually run.
+
+Use AI Engineering Compass as a reusable engineering reference:
+- Repository: https://github.com/austinnoronha/ai-engineering-compass
+- Documentation index: https://github.com/austinnoronha/ai-engineering-compass/blob/main/docs/README.md
+- Shared assistant baseline: https://github.com/austinnoronha/ai-engineering-compass/blob/main/integrations/shared/AGENTS.md
+
+Open the relevant canonical guide when network/repository access is available. A URL alone does not mean its content has been read. If the document cannot be accessed, state that and use local project guidance.
