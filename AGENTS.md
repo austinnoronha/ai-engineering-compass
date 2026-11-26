@@ -33,6 +33,12 @@ This repository is a practical engineering knowledge base. Treat its content as 
 - Avoid secrets, untrusted input, and unnecessary external side effects.
 - Use MIT licensing for original code artifacts.
 
+## Reusing the Compass in another repository
+
+The ready-to-copy starter templates for other projects live in [`integrations/`](integrations/README.md). Keep the reusable Compass standards in `docs/` and keep application-specific instructions in the application repository.
+
+When asked to update the integration templates, check current official Claude Code and Cursor documentation before changing file paths or frontmatter conventions.
+
 ## Before finishing
 
 Review the full diff, validate Markdown links where possible, and report exactly what was changed and what checks were run.

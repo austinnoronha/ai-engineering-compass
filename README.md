@@ -73,6 +73,27 @@ You can use the material in several ways:
 
 The content is framework-agnostic where possible. Technology-specific examples should state the versions and assumptions they depend on.
 
+## Use Compass as a starter for your own repository
+
+You can adopt these engineering standards in an existing or new application repository and use them with AI coding assistants. The goal is to give your assistant a shared engineering playbook across the SDLC, while keeping your own architecture and project decisions in your repository.
+
+**Start here:** [Integration and adoption guide](integrations/README.md)
+
+Ready-to-copy templates are provided for:
+
+- **Claude Code:** root `CLAUDE.md`, a reusable `engineering-sdlc` skill, and an optional read-only engineering reviewer in `.claude/`.
+- **Cursor:** project rules in `.cursor/rules/` and an SDLC skill in `.cursor/skills/`.
+- **Other compatible assistants:** a shared `AGENTS.md` baseline where supported.
+
+Choose between two approaches:
+
+1. **Canonical reference:** keep the small assistant instruction files in your project and point them to the [canonical Compass documentation](https://github.com/austinnoronha/ai-engineering-compass/tree/main/docs). Ask your assistant to open the relevant pages for each task. A link alone does not mean the assistant has read the document.
+2. **Local snapshot:** copy only the relevant standards into your own repository, retain attribution and the canonical source link, and refresh the copies when the Compass guidance changes.
+
+Use the standards across discovery, planning, design, implementation, testing, review, release preparation, and operations. The assistant can help at each stage, but your engineers remain responsible for decisions, verification, approvals, and production changes.
+
+Keep application-specific facts, commands, architecture, and policies in your own repository. When you develop a generally useful standard, example, checklist, or lesson, [contribute it back through an issue or pull request](CONTRIBUTING.md).
+
 ## Content quality and trust
 
 This repository is a shared learning resource, not a universal rulebook.

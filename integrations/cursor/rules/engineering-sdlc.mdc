@@ -1,0 +1,32 @@
+---
+description: Apply the engineering lifecycle workflow for feature work, bug fixes, refactoring, migrations, security changes, reviews, and release preparation.
+alwaysApply: false
+---
+
+# Engineering SDLC workflow
+
+For non-trivial changes, work through the lifecycle in proportion to risk:
+
+1. **Discover:** Understand the user outcome, inspect relevant code and project instructions, identify constraints and unknowns.
+2. **Plan:** Define scope, acceptance criteria, dependencies, risks, and verification.
+3. **Design:** Compare proportionate options; consider boundaries, contracts, data, security, failure behaviour, and operations.
+4. **Implement:** Make small, focused changes that follow project conventions. Avoid speculative abstractions and unrelated refactors.
+5. **Verify:** Run relevant tests and configured quality/security checks. Report actual results; never claim unrun checks passed.
+6. **Review:** Inspect the complete diff for correctness, security, compatibility, maintainability, and scope.
+7. **Prepare delivery:** Consider configuration, secrets, migrations, deployment order, smoke tests, rollback, monitoring, and release notes.
+8. **Report:** Summarize changes, evidence, gaps, and remaining risks.
+
+Use the narrowest relevant AI Engineering Compass guide:
+- Documentation index: https://github.com/austinnoronha/ai-engineering-compass/blob/main/docs/README.md
+- Software design: https://github.com/austinnoronha/ai-engineering-compass/tree/main/docs/software-design
+- Backend: https://github.com/austinnoronha/ai-engineering-compass/tree/main/docs/backend-engineering
+- Frontend: https://github.com/austinnoronha/ai-engineering-compass/tree/main/docs/frontend-engineering
+- Data: https://github.com/austinnoronha/ai-engineering-compass/tree/main/docs/databases-and-storage
+- Testing: https://github.com/austinnoronha/ai-engineering-compass/tree/main/docs/testing-and-quality
+- Security: https://github.com/austinnoronha/ai-engineering-compass/tree/main/docs/security-and-privacy
+- Cloud and DevOps: https://github.com/austinnoronha/ai-engineering-compass/tree/main/docs/cloud-and-devops
+- Reliability: https://github.com/austinnoronha/ai-engineering-compass/tree/main/docs/reliability-and-observability
+- AI-assisted engineering: https://github.com/austinnoronha/ai-engineering-compass/tree/main/docs/ai-assisted-engineering
+- Engineering workflow: https://github.com/austinnoronha/ai-engineering-compass/tree/main/docs/engineering-workflow
+
+Do not claim to have read linked material unless you opened it. AI guidance is not an enforcement boundary: follow the repository's actual CI, review, security, and release controls.
