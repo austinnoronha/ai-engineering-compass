@@ -1,0 +1,33 @@
+name: Content proposal
+description: Propose a new topic or improvement to the knowledge base
+title: "[Content] "
+labels: ["content"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or learning need
+      description: What should an engineer be able to understand or do after reading this?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context and audience
+      description: Who is this for, and what assumptions or technologies matter?
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Suggested content
+      description: Outline the concepts, examples, trade-offs, or references that would help.
+    validations:
+      required: false
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Link authoritative sources or relevant examples.
+    validations:
+      required: false
